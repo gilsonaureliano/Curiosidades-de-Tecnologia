@@ -64,11 +64,11 @@ header > h1{
 
 }
 header > p{
-     width: 300px;
+     width: 340px;
      margin: auto;
      text-align: center;
      text-shadow: 0.1em 0.1em rgba(0, 0, 0, 0.89);
-     padding-bottom: 10px;
+     padding-bottom: 21px;
      
 }
 header > nav{
