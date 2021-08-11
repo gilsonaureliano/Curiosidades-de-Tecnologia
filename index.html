@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <h1>CURIOSIDADES DE TECNOLOGIA</h1>
+        <h1 id="tit" onmousemove="cor()" onmouseout="sair()">CURIOSIDADES DE TECNOLOGIA</h1>
         <p>Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único lugar</p>
         
         <nav>
@@ -93,6 +93,19 @@
     <footer>
         <p>Site criado por GilsonAurelino para o CursoemVideo.</p>
     </footer>
+    <script>
+        function cor() {
+            var a = window.document.getElementById('tit')
+            a.style.color = 'red'
+            
+        }
+        function sair() {
+
+            var a = window.document.getElementById('tit')
+            a.style.color = 'var(--cor0)'
+        }
+        
+    </script>
     
 </body>
 </html>
